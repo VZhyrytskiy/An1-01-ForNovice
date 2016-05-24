@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vitaliy's TO DO List</title>
+	<link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1><img class="photo" src="images/VZ.jpg">
+				Vitaliy's To Do List
+			</h1>
+		</div>
+		<div class="panel">
+			<form novalidate name="newTask">
+				<div class="form-group">
+					<label for="action">Action:</label>
+					<div class="input-group">
+						<input id="action" name="action" class="form-control" />
+						<span class="input-group-btn">
+							<button class="btn btn-default">Add</button>
+						</span>
+					</div>
+				</div>
+			</form>
+
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Description</th>
+						<th>Done</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td>Estimate...</td><td>No</td></tr>
+					<tr><td>Create...</td><td>No</td></tr>
+					<tr><td>Edit...</td><td>Yes</td></tr>
+					<tr><td>Delete...</td><td>No</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

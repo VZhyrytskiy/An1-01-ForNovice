@@ -1,0 +1,21 @@
+{
+  "name": "todoApp",
+  "version": "0.0.1",
+  "description": "Example",
+  "authors": [
+    "Vitaliy Zhyrytskyy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/js/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "bootstrap": "~3.3.5"
+  }
+}
